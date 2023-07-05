@@ -1,0 +1,13 @@
+query getEmployees {
+  employees {
+    id
+    firstName
+    lastName
+    age
+    phone
+    email
+    voteCount
+    jobTitle
+    image
+  }
+}

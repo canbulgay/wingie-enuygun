@@ -1,0 +1,21 @@
+query getEmployee($id: ID!) {
+  employee(id: $id) {
+    id
+    firstName
+    lastName
+    age
+    phone
+    email
+    voteCount
+    jobTitle
+    image
+    address {
+      state
+      street
+      city
+      state
+      number
+      zipCode
+    }
+  }
+}

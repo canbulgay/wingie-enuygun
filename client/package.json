@@ -1,0 +1,24 @@
+{
+  "name": "wingie-enuygun",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.8",
+    "@chakra-ui/next-js": "^2.1.4",
+    "@chakra-ui/react": "^2.7.1",
+    "next": "13.4.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@apollo/client": "^3.7.16"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
